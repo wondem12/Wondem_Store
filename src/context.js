@@ -189,7 +189,7 @@ class ProductProvider extends Component {
         };
       },
       () => {
-        alert("Thank you for your payment, the order is on the way to you :)");
+        alert("Thank you for your payment, the order is on the way :)");
 window.location="/";
       }
     );
