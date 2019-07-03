@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (  
 <div class="footer">
 <div class="container">
 <div class="footer-bottom">
-<h2 ><a href="index.html"><b>T<br/><br/>H<br/><br/>E</b>&nbsp;Wondem Store<span>The Best Supermarket</span></a></h2>
+<h2 ><Link to="/"><b>T<br/><br/>H<br/><br/>E</b>&nbsp;Wondem Store<span>The Best Supermarket</span></Link></h2>
 		<br/>
 		<br/>
 				<ul class="social-fo">
